@@ -1,0 +1,26 @@
+{
+  "name": "vue-landing-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@unhead/vue": "^2.0.0-beta.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.20",
+    "fs-extra": "^11.3.0",
+    "path": "^0.12.7",
+    "postcss": "^8.5.3",
+    "puppeteer": "^24.3.0",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.4.5"
+  }
+}

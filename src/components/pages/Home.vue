@@ -10,7 +10,7 @@
         <h1
           class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
         >
-          Bring everyone together to build better products
+          Bring everyone together to build better services
         </h1>
         <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
           Manage makes it simple for software teams to plan day-to-day tasks

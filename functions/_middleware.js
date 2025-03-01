@@ -12,6 +12,9 @@ export async function onRequest(context) {
     if (isBot) {
         // Redirect bots to prerendered pages
         const url = new URL(context.request.url);
+        if(url.pathname == '/'){
+            return context.env.ASSETS.fetch(`https://vue-landing-page.pages.dev/prerendered/index.html`);
+        }
         return context.env.ASSETS.fetch(`https://vue-landing-page.pages.dev/prerendered${url.pathname}.html`);
     }
 

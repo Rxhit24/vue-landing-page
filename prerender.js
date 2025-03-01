@@ -6,7 +6,7 @@ const BASE_URL = "http://localhost:5173";
 const PAGES = ["/",'/about','/contact','/services','/terms']; // pages to pre-render
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
 
   for (let route of PAGES) {

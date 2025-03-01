@@ -12,7 +12,7 @@ export async function onRequest(context) {
     if (isBot) {
         // Redirect bots to prerendered pages
         const url = new URL(context.request.url);
-        return context.env.ASSETS.fetch(`https://vue-landing-page.pages.dev/prerendered/${url.pathname}.html`);
+        return context.env.ASSETS.fetch(`https://vue-landing-page.pages.dev/prerendered${url.pathname}.html`);
     }
 
     // Serve Vue app normally
